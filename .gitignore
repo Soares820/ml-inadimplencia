@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+
+# Modelo do Passo 4 sem tuning: 182 MB, acima do limite de 100 MB do GitHub.
+# O modelo final usado pela API é models/melhor_modelo_tuned.pkl (0,34 MB).
+models/random_forest.pkl
